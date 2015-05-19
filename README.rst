@@ -36,6 +36,16 @@ Change Case is easy to use. You simply pass a string to get the new value. Examp
 To see what is possibly, simply view the main file. You can run tests by running the file directly. You can also look at
 the tests to see the usage and response of each one.
 
+Contributing and Bugs
+=====================
+
+You can file any issues you find here:
+
+https://github.com/SkiftCreative/python-change-case/issues
+
+It is easy to add a new casing type. simply add the new functions, and tests. To submit a patch I am open to pull
+requests as well.
+
 =======
 LICENSE
 =======

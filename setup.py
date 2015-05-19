@@ -9,9 +9,9 @@ with open(readmefile) as readme:
 os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
-    name='change-case',
-    version='0.5',
-    packages=['change-case'],
+    name='change_case',
+    version='0.5.1',
+    packages=['change_case'],
     include_package_data=True,
     license='MIT License',
     description='change between one type of casing and another',
