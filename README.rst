@@ -26,7 +26,7 @@ Usage
 =====
 
 Change Case is easy to use. You simply pass a string to get the new value. Example, if you want to convert a
-``camelCasedString`` to a ``snake_cased_string``, you would simply run
+``camelCasedString`` to a ``snake_cased_string``, you would simply run::
 
     old = "camelCasedString"
     new = ChangeCase.camel_to_snake(old)
