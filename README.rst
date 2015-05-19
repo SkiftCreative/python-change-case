@@ -5,16 +5,22 @@ Change Case
 What is this for?
 =================
 
-As simple as it is, I was surprised that there was no libraries in pypi that purely handled chaning of casing from one
-style to another. Sure siple .title() is easy. But this library allows you to easily take any casing type and go from
+As simple as it is, I was surprised that there was no libraries in pypi that purely handled changing of casing from one
+style to another. Sure simple .title() is easy. But this library allows you to easily take any casing type and go from
 one to the other.
 
 Types supported
-* camelCase (lower camel case)
-* PascalCase (upper camel case)
-* WikiCase
-* snake_case
+
+* `camelCase`_ (lower camel case)
+* `PascalCase`_ (upper camel case)
+* `WikiCase`_
+* `snake_case`_
 * param-case (for url's)
+
+.. _camelCase: http://en.wikipedia.org/wiki/CamelCase
+.. _PascalCase: http://c2.com/cgi/wiki?PascalCase
+.. _WikiCase: http://en.wikipedia.org/wiki/Wikipedia:Naming_conventions_%28capitalization%29
+.. _snake_case: http://en.wikipedia.org/wiki/Snake_case
 
 Python Version Support
 ======================
@@ -36,6 +42,45 @@ Change Case is easy to use. You simply pass a string to get the new value. Examp
 To see what is possibly, simply view the main file. You can run tests by running the file directly. You can also look at
 the tests to see the usage and response of each one.
 
+Tests
+=====
+
+You can easily run tests one of two ways. You can run the change_case.py file manually with python, and it will run the
+test.::
+
+    python3 change_case.py
+
+or you can do this as well::
+
+    In [1]: from change_case import ChangeCase
+
+    In [2]: ChangeCase.run_tests()
+    camel_to_upper_camel tests passed.
+    camel_to_pascal tests passed.
+    camel_to_wiki tests passed.
+    camel_to_snake tests passed.
+    camel_to_param tests passed.
+    pascal_to_camel tests passed.
+    pascal_to_upper_camel tests passed.
+    pascal_to_wiki tests passed.
+    pascal_to_snake tests passed.
+    pascal_to_param tests passed.
+    wiki_to_camel tests passed.
+    wiki_to_upper_camel tests passed.
+    wiki_to_pascal tests passed.
+    wiki_to_snake tests passed.
+    wiki_to_param tests passed.
+    snake_to_camel tests passed.
+    snake_to_upper_camel tests passed.
+    snake_to_pascal tests passed.
+    snake_to_wiki tests passed.
+    snake_to_param tests passed.
+    param_to_camel tests passed.
+    param_to_upper_camel tests passed.
+    param_to_pascal tests passed.
+    param_to_wiki tests passed.
+    param_to_snake tests passed.
+
 Contributing and Bugs
 =====================
 
@@ -43,8 +88,8 @@ You can file any issues you find here:
 
 https://github.com/SkiftCreative/python-change-case/issues
 
-It is easy to add a new casing type. simply add the new functions, and tests. To submit a patch I am open to pull
-requests as well.
+It is fairly simple to add new case types. Simply add the methods to ``ChangeCase`` and add the tests to
+``ChangeCase.run_tests()``
 
 =======
 LICENSE
