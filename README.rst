@@ -26,14 +26,12 @@ Usage
 =====
 
 Change Case is easy to use. You simply pass a string to get the new value. Example, if you want to convert a
-camelCasedString to a snake_cased_string, you would simply run
+``camelCasedString`` to a ``snake_cased_string``, you would simply run
 
-```
-old = "camelCasedString"
-new = ChangeCase.camel_to_snake(old)
-print(new)
-# camel_cased_string
-```
+    old = "camelCasedString"
+    new = ChangeCase.camel_to_snake(old)
+    print(new)
+    # camel_cased_string
 
 To see what is possibly, simply view the main file. You can run tests by running the file directly. You can also look at
 the tests to see the usage and response of each one.
