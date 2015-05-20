@@ -2,6 +2,10 @@
 Change Case
 ===========
 
+.. image:: https://requires.io/github/SkiftCreative/python-change-case/requirements.svg?branch=master
+    :target: https://requires.io/github/SkiftCreative/python-change-case/requirements/?branch=master
+    :alt: Requirements Status
+
 What is this for?
 =================
 

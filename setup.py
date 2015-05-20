@@ -10,7 +10,7 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
     name='change_case',
-    version='0.5.1',
+    version='0.5.2',
     packages=['change_case'],
     include_package_data=True,
     license='MIT License',
